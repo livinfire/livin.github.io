@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- tab judul -->
+    <title>Registrasi</title>
+</head>
+<body>
+<!-- h1 judul utama halaman -->
+    <h1>Registrasi Akun</h1>
+<!-- form action untuk link, ketika input submit daftar diklik akan dikirim ke halaman yang dituju yaitu index.html -->
+    <form action="index.html">
+<!-- membuat garis kotak pada formulir -->
+    <fieldset> 
+<!-- membuat judul pada garis kotak formulir -->
+    <legend>Formulir Registrasi</legend>
+<!-- label untuk mendefinisikan teks yang bakal muncul di output -->
+<!-- input atribut seperti autofocus untuk panduan mengisi teks pada kursor -->
+<!-- atribut required placeholder untuk ketentuan validasi data yang harus diisi -->
+    <label for="nama">Masukkan nama: </label> <input autofocus type="nama" name="nama" id="nama" required placeholder="Atha adhyazhafir"><br>
+    <br> <label for="nim">Masukkan NIM:  </label> <input autofocus type="nim" name="nim" id="nim" required placeholder="202431027"> <br>
+    <br> <label for="email">Masukkan email:  </label> <input autofocus type="email" name="email" id="email" required placeholder="athaadhya@gmail.com"> <br>
+        
+<!-- label yang mendefinisikan teks jenis kelamin -->
+<!-- membuat pilihan opsi Laki-Laki dan Perempuan -->
+<!-- br untuk membuat jeda antar output  -->
+    <br><label for="">Jenis Kelamin</label><br>
+    <input type="radio" name="Jeniskelamin" id="Jeniskelamin"><label for="Jeniskelamin">Laki-Laki</label>
+    <input type="radio" name="Jeniskelamin" id="Jeniskelamin"><label for="Jeniskelamin">Perempuan</label><br>
+
+<!-- label yang mendefinisikan teks Agama, dan membuat opsi dropdown -->
+    <br><label for="agama">Agama</label>
+    <select name="" id="level">
+    <option value="">Islam</option>
+    <option value="">Kristen</option>
+    </select><br>
+
+<!-- label yang mendefinisikan teks Masukkan Password, dan panduan isi contoh admin123 -->
+    br><label for="password">Masukkan Password:</label>
+    <input required type="password" placeholder="admin123" name="password" id="password"><br>
+    <br> <label for="Konfirmasipassword">Konfirmasi Password:</label>
+    <input required type="Konfirmasipassword"  name="Konfirmasipassword" id="Konfirmasipassword"><br>
+
+<!-- untuk input kirim, dengan teks output Daftar yang sudah terlink dengan halaman form action index.html -->
+    <br><input type="submit" value="Daftar"><br>
+    <br></fieldset>
+
+</body>
+</html>
