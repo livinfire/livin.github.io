@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Workshop</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Workshop</h1>
+    <form action="index.html">
+        <fieldset>
+            <label for="Nama Lengkap Peserta">Nama Lengkap Peserta</label><br>
+            <input autofocus type="Nama Lengkap Peserta" name="Nama Lengkap Peserta" id="Nama Lengkap Peserta" required placeholder="Silahkan isi nama lengkap Anda">
+        </fieldset>
+
+        <fieldset>
+            <label for="Email">Email</label><br>
+            <input type="Email" name="Email" id="Email" placeholder="Silahkan isi email Anda">
+        </fieldset>
+
+        <fieldset>
+            <label for="Password">Password</label><br>
+            <input type="Password" name="Password" id="Password" placeholder="Silahkan masukkan Password">
+        </fieldset>
+
+        <fieldset>
+            <label for="Nomor Telepon">Nomor Telepon/WhatsApp</label><br>
+            <input pattern="[0-100] (12)" type="text" title="Nomor wajib 12 digit" name="Nomor Telepon" placeholder="Silahkan masukkan telepon">
+        </fieldset>
+
+        <fieldset>
+            <label for="Institusi">Institusi/Perusahaan Asal</label><br>
+            <input type="Institusi" name="Institusi" id="Institusi" placeholder="Silahkan isi Institusi Anda">
+        </fieldset>
+
+        <fieldset>
+            <label for="jadwal">Pilih Jadwal Workshop</label><br>
+            <select name="" id="jadwal">
+                <option value="">Sesi Pagi - 09:00</option>
+                <option value="">Sesi Siang - 13:00</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="Paket">Pilih Paket Workshop</label><br>
+            <input type="radio" name="Paket" id="Paket"><label for="Paket">Reguler - Rp. 150.000</label>
+            <input type="radio" name="Paket" id="Paket"><label for="Paket">VIP - Rp 250.000</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="Metode">Metode Pembayaran</label><br>
+            <input type="radio" name="Metode" id="Metode"><label for="Metode">Transfer Bank</label>
+            <input type="radio" name="Metode" id="Metode"><label for="Metode">E-Wallet</label>
+            <input type="radio" name="Metode" id="Metode"><label for="Metode">Kartu Kredit</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="Kebutuhan">Kebutuhan Diet Khusus</label><br>
+            <input type="Kebutuhan" name="Kebutuhan" id="Kebutuhan" placeholder="Mis : Vegetarian, Alergi Kacang">
+        </fieldset>
+
+        <fieldset>
+            <label for="">Dari Mana Anda mengetahui info workshop ini?</label><br>
+            <input type="checkbox" name="workshop" id="Instagram"><label for="">Instagram</label>
+            <input type="checkbox" name="workshop" id="Teman"><label for="">Teman</label>
+            <input type="checkbox" name="workshop" id="Situs Web"><label for="">Situs</label>
+            <input type="checkbox" name="workshop" id="Lainnya"><label for="">Lainnya</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="Kode">Kode Promo</label><br>
+            <input type="Kode" name="Kode" id="Kode" placeholder="Jika Ada">
+        </fieldset>
+
+        <fieldset>
+            <label for="Harapan">Harapan yang ingin didapat dari workshop ini</label><br>
+            <input type="Harapan" name="Kode" id="Kode" placeholder="Jika Ada">
+        </fieldset>
+
+        <input type="submit" value="Daftar Sekarang">
+    </form>  
+</body>
+</html>
