@@ -1,0 +1,25 @@
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 30px;
+    color: forestgreen;
+}
+
+#slogan {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraf {
+    color: firebrick;
+ 
+}
+
+.container {
+    width: 400px;
+    background-color: ivory;
+}
