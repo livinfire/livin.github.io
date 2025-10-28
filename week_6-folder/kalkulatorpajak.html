@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Pajak</title>
+    <script src="pajak.js"></script>
+</head>
+<body>
+    <h1>Kalkulator Pajak</h1>
+    <form action="">
+        Masukkan jumlah angka:
+        <input type="text" id="harga" oninput="pajak(); ">
+        <button type="button" onclick="validate();">cek hasil pajak</button>
+        <hr>
+        <span id="result"></span>
+    </form>
+
+    <p id="peringatan" style="display: none; color: red; font-weight: bold;">Peringatan, nilai pajak melebihi 80.</p>
+</body>
+</html>
